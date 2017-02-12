@@ -1,0 +1,6 @@
+framework module Pods_TencentIM_RAC {
+  umbrella header "Pods-TencentIM_RAC-umbrella.h"
+
+  export *
+  module * { export * }
+}

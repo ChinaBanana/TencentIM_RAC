@@ -1,0 +1,34 @@
+//
+//  TencentIM_RAC.pch
+//  TencentIM_RAC
+//
+//  Created by 赵海伟 on 12/02/2017.
+//  Copyright © 2017 赵海伟. All rights reserved.
+//
+
+#ifndef TencentIM_RAC_pch
+#define TencentIM_RAC_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "AppUI.h"
+
+#import "CocoaPods.h"
+
+#import "ConstMacro.h"
+
+#import "Macro.h"
+
+#import "EventAggregator.h"
+
+#import "HWBaseService.h"
+
+#import "HWBaseViewModel.h"
+
+#import "ServiceContainer.h"
+
+#import "ProgressHUDTools.h"
+
+#import "Categroies.h"
+
+#endif /* TencentIM_RAC_pch */

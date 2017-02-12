@@ -1,0 +1,23 @@
+//
+//  HWContactsModel.m
+//  ReactiveCocoa_tencentIM
+//
+//  Created by 赵海伟 on 09/02/2017.
+//  Copyright © 2017 赵海伟. All rights reserved.
+//
+
+#import "HWContactsModel.h"
+
+@implementation HWContactsModel
+
+- (instancetype)initWithHeadImage:(NSString*)imageName andNickName:(NSString*)nickName
+{
+    self = [super init];
+    if (self) {
+        _headImage = imageName;
+        _nickName = nickName;
+    }
+    return self;
+}
+
+@end
