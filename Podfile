@@ -1,5 +1,4 @@
-workspace 'ReactiveCocoa_tencentIMWorkspace'
-project 'TencentIM_RAC.xcodeproj'
+project 'TencentIM_RAC.xcodeproj’
 target :'TencentIM_RAC' do
 platform :ios, '10.0'
 use_frameworks!
