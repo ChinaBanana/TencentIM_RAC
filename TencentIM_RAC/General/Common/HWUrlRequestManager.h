@@ -19,4 +19,6 @@ typedef enum {
 
 + (void)requestUrl:(NSString*)urlStr type:(HWRequestType)type withParames:(NSDictionary*)parames succeed:(RequestSucceed)succeed;
 
+//+ (void)requestUrl:(NSString*)url type:(HWRequestType)type succeed:(void (^)(id responseObj))succeed;
+
 @end

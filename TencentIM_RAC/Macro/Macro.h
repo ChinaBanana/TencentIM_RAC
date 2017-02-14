@@ -10,23 +10,16 @@
 #define Macro_h
 
 
-#define SDKAPPID            1400024409
-#define ACCOUNT_TYPE        10399
-#define USER_SIG            @"eJx10EFPgzAYxvE7n6LpVaMtFNZ5w0ncEmWBOa1emo6WUTagKZ1uGr*7cVsiF9-r80v*yfvlAQDg08PiShRFt2sddwejILgBEKNgPIaXf8AYLblwPLDyBAhCyCcEDZXaG20VF6VT9qTCUUTR7w2Ulqp1utRn81aJbvoy2Hu54cfe-6Fer4-jY-I6mWUTO03Ep9Jttsq3jqn49r4OMonVs89W5MMeurDIl-nSzOl6VsXz3b5PXBmzuglTvL241ovUf6dVWrINimnXSJewO2oYrgdJp5vzawiNSBDhkQ*"
-#define PUBLIC_KEY          @"ItcxKTYqhEDS9R+j+DmvBi158Pq4bvvhlVcGCvEc3pV2p4bdNspH8A"
-
+#define SDKAPPID                    1400024409
+#define ACCOUNT_TYPE                10399
 
 #define SCREEN_WIDTH                [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT               [UIScreen mainScreen].bounds.size.height
 #define VIEW_HEIGH                  SCREEN_HEIGHT - 64
 
-#define DEFAULT_MARGIN              20
-#define DEFAULT_TOP_MARGIN          10
-#define DEFAULT_VIEW_HEIGHT         50
-
 #define DEFAULT_HEAD_IMAGE          IMAGE(@"default_person_image")
 
-#define REDIO           375/SCREEN_WIDTH
+#define REDIO                       375/SCREEN_WIDTH
 
 /* ***********************              debug               ********************* */
 #ifdef DEBUG

@@ -128,14 +128,14 @@
 - (void)updateViewConstraints
 {
     [_accountTF mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.equalTo(@(DEFAULT_MARGIN));
+        make.left.equalTo(@(k_default_margin));
         make.top.equalTo(@150);
-        make.right.equalTo(@(-DEFAULT_MARGIN));
-        make.height.equalTo(@(DEFAULT_VIEW_HEIGHT));
+        make.right.equalTo(@(-k_default_margin));
+        make.height.equalTo(@(k_default_view_height));
     }];
     [_passwordTF mas_makeConstraints:^(MASConstraintMaker *make) {
         make.size.equalTo(_accountTF);
-        make.top.equalTo(_accountTF.mas_bottom).offset(DEFAULT_TOP_MARGIN);
+        make.top.equalTo(_accountTF.mas_bottom).offset(k_default_top_margin);
         make.left.equalTo(_accountTF);
     }];
     [_sendTestNumBtn mas_makeConstraints:^(MASConstraintMaker *make) {
